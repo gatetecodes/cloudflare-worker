@@ -7,6 +7,12 @@
   "name": "upload-r2-assets",
   "main": "src/index.ts",
   "compatibility_date": "2025-01-24",
+  "r2_buckets": [
+    {
+      "binding": "MY_BUCKET",
+      "bucket_name": "images"
+    }
+  ],
   "observability": {
     "enabled": true
   }
