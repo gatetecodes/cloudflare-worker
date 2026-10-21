@@ -5,6 +5,7 @@ export default defineWorkersConfig({
 		poolOptions: {
 			workers: {
 				wrangler: { configPath: './wrangler.json' },
+				miniflare: { bindings: { AUTH_SECRET: 'test-secret' } },
 			},
 		},
 	},
